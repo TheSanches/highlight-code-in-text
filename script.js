@@ -7,12 +7,11 @@ function findRowCode(textContainers) {
     arr.find((i, index) => { 
       if(i.match(reg)) {
         arr[index] = `<div style="color: #CA0000; font-size: 13px;">${arr[index]}</div>`;
-        item.innerHTML = arr.join(' ');
       }
     });
+    item.innerHTML = arr.join(' ');
   });
 
 }
 
 findRowCode('.text');
-
