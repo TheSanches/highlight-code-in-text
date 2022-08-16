@@ -2,6 +2,11 @@
 
 The script checks the text for the presence of a search range, if it finds it, wraps it in a div, and then rewrites the text
 
+> You need to call a function with a parameter (block class with text)
+```
+findRowCode('.text');
+```
+
 > Search range (can be changed)
 ```
 /[\_\/\-\\]|.jsp|.html|.css|.js|.txt|.png|.jpg|.svg/gm
