@@ -20,5 +20,5 @@ document.querySelector('.text2').innerHTML = returnFindRowCode('.text2');
 
 > Wrapper created for the found code (can be changed)
 ```
-`<div style="color: #CA0000; font-size: 13px;">example</div>`
+`<div style="color: #CA0000; font-size: 13px;">${arr[index]}</div>`
 ```
